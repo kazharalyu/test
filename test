@@ -43,7 +43,8 @@ echo "5. Cctv"
 echo "6. My Ip Addres"
 echo "7. Ip Locator"
 echo "8. Special Coments"
-echo -e "0. EXIT${DELETE}"
+echo "9. Moon-buggy[Gim]"
+echo -e "10. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
 
@@ -73,7 +74,10 @@ sleep 1
 elif [[ $pil = "8" ]]; then
 echo " M-?"
 sleep 1
-elif [[ $pil = "0" ]]; then
+elif [[ $ pil = "9" ]]; then
+read -p "Press [ENTER] to Start to the Game " lolcat
+moon-buggy
+elif [[ $pil = "10" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 sleep 1
 else
