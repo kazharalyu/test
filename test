@@ -43,7 +43,7 @@ echo "5. Cctv"
 echo "6. My Ip Addres"
 echo "7. Ip Locator"
 echo "8. Special Coments"
-echo "9. Moon-buggy[Gim]"
+echo "9. Moon-buggy" | lolcat
 echo -e "10. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
