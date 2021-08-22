@@ -25,13 +25,13 @@ clear
 sleep 2
 echo
 echo -e $REED"____________________________________________________________"
-echo -e ${blue}"Youtube : Ahmad Guntur Al"
+echo -e $blue"Youtube : Ahmad Guntur Al"
 echo -e $purple"Owner : Ahmad Guntur Alfandi"
 echo -e $purple"co owner : Brother Kasyifil Aziz"
-echo -e ${cyan}"admin : Captain Azka Permana"
+echo -e $cyan"admin : Captain Azka Permana"
 echo -e $yellow"Veteran : Muhammad El Faruq"
-echo -e {GREEN}"Members : Alisyah, Shofietunisa, Inunk"
-echo -e ${blue}"____________________________________________________________"
+echo -e $GREEN"Members : Alisyah, Shofietunisa, Inunk"
+echo -e $blue"____________________________________________________________"
 echo
 sleep 2
 
