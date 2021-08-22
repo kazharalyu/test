@@ -22,7 +22,7 @@ lightcyan="\e[1;36m"
 # Clear Dekstop
 clear
 
-sleep2
+sleep 2
 echo
 echo -e ${REED}"____________________________________________________________"
 echo -e ${blue}"Youtube : Ahmad Guntur Al"
