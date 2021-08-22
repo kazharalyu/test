@@ -74,9 +74,10 @@ sleep 1
 elif [[ $pil = "8" ]]; then
 echo " M-?"
 sleep 1
-elif [[ $ pil = "9" ]]; then
+elif [[ $pil = "9" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 moon-buggy
+sleep 1
 elif [[ $pil = "10" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 sleep 1
