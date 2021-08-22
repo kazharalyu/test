@@ -20,9 +20,9 @@ lightcyan="\e[1;36m"
 
 
 # Clear Dekstop
+clear
 
-
-
+sleep2
 echo
 echo -e ${REED}"____________________________________________________________"
 echo -e ${blue}"Youtube : Ahmad Guntur Al"
@@ -33,6 +33,7 @@ echo -e ${yellow}"Veteran : Muhammad El Faruq"
 echo -e ${GREEN}"Members : Alisyah, Shofietunisa, Inunk"
 echo -e ${blue}"____________________________________________________________"
 echo
+sleep 2
 
 echo -e ${GREEN}"1. Cracked Password"
 echo "2. Send Link Virus"
@@ -48,24 +49,34 @@ read -p "Select The Menu : " pil
 
 if [[ $pil = "1" ]] ;then
 echo -e $yellow"qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
+sleep 1
 elif [[ $pil = "2" ]]; then
 echo -e $purple"https://bit.ly/3ild93L"
+sleep 1
 elif [[ $pil = "3" ]]; then
 read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
 link=https://id.jagreward.com/member/verify-mobile/$nomor
 curl -s $link
+sleep 1
 elif [[ $pil = "4" ]]; then
 echo -e $REED"be you be a good hacker, be you be a wise person. Remember not to use this tool wrong!"
+sleep 1
 elif [[ $pil = "5" ]]; then
 echo -e $REED"(Italy)http://2.37.161.141:80,(Indonesia)http://210.23.68.3:86,(France)http://193.252.54.33:88,(American)http://173.14.218.66:8082."
+sleep 1
 elif [[ $pil = "6" ]]; then
 echo -e $purple"https://www.expressvpn.com/what-is-my-ip"
+sleep 1
 elif [[ $pil = "7" ]]; then
 echo -e $lightpurple"(Your Gmail), (Your Password)."
+sleep 1
 elif [[ $pil = "8" ]]; then
 echo " M-?"
+sleep 1
 elif [[ $pil = "0" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
+sleep 1
 else
+sleep 1
 echo -e $lightgreen"Ops, Please Try Agains!!"
 fi
