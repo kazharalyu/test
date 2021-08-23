@@ -63,7 +63,7 @@ echo "X. install a little termux material"
 echo "Y. Cek Instagram"
 echo -e "Z. EXIT${DELETE}"
 
-read -p "Select The Numbers : " pil
+read -p "Choose The Letter : " pil
 
 if [[ $pil = "A" ]] ;then
 echo -e $yellow"qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
