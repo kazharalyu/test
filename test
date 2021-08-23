@@ -44,7 +44,12 @@ echo "6. My Ip Addres"
 echo "7. Ip Locator"
 echo "8. Special Coments"
 echo "9. Moon-buggy" 
-echo -e "10. EXIT${DELETE}"
+echo "10. Bastet"
+echo "11. pacman"
+echo "12. Nudoku"
+echo "13. 2048"
+echo "14. Nethack"
+echo -e "0. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
 
@@ -78,7 +83,24 @@ elif [[ $pil = "9" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 moon-buggy
 sleep 1
-elif [[ $pil = "10" ]]; then
+elif [[ $pil = "10" ]];then
+read -p "Press [ENTER] to Start to the Game " lolcat
+bastet
+sleep 1
+elif [[ $pil = "11" ]]; then
+read -p "Press [ENTER] to Start to the Game " lolcat
+pacman
+sleep 1
+elif [[ $pil = "12" ]]; then
+read -p "Press [ENTER] to Start to the Game " lolcat
+nudoku
+elif [[ $pil = "13" ]]; then
+read -p "Press [ENTER] to Start to the Game " lolcat
+./2048
+elif [[ $pil = "14" ]]; then
+read -p "Press [ENTER] to Start to the Game " lolcat
+nethack
+elif [[ $pil = "0" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 sleep 1
 else
