@@ -49,6 +49,13 @@ echo "K. pacman"
 echo "L. Nudoku"
 echo "M. 2048"
 echo "N. Nethack"
+echo "O. Cmatrix"
+echo "P. Sl"
+echo "Q. Libcaca"
+echo "R. Cowsay"
+echo "S. Nsnake"
+echo "T. Greed"
+echo "U. Ninvaders"
 echo -e "0. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
@@ -94,12 +101,47 @@ sleep 1
 elif [[ $pil = "L" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 nudoku
+sleep 1
 elif [[ $pil = "M" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 ./2048
+sleep1
 elif [[ $pil = "N" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 nethack
+sleep 1
+elif [[ $pil = "O" ]]; then
+read -p "Press [ENTER] to Start to the Animation" lolcat
+pkg install cmatrix
+cmatrix
+sleep 1
+elif [[ $pil = "P" ]]; then
+read -p "Press [ENTER] to Start to the Animation" lolcat
+pkg install sl
+sl
+sleep 1
+elif [[ $pil = "Q" ]]; then
+read -p "Press [ENTER] to Start to the Animation" lolcat
+apt install libcaca
+cacafire
+sleep 1
+elif [[ $pil = "R" ]]; then
+read -p "Press [ENTER] to Start to the Animation" lolcat
+apt install cowsay
+cowsay hello
+cowsay nice to meet you
+sleep 1
+elif [[ $pil = "S" ]]; then
+read -p "Press [ENTER] to Start to the Game"
+nsake
+sleep 1
+elif [[ $pil = "T" ]]; then
+read -p "Press [ENTER] to Start to the Game"
+greed
+sleep 1
+elif [[ $pil = "U" ]]; then
+read -p "Press [ENTER] to Start to the Game"
+nInvaders
 elif [[ $pil = "0" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 sleep 1
