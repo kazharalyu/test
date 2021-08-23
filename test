@@ -15,6 +15,7 @@ lightblue="\e[1;34m"
 lightpurple="\e[1;35m"
 lightreed="\e[1;31m"
 lightcyan="\e[1;36m"
+N="\033[0;m"
 
 #Tampilan Menu
 
@@ -56,7 +57,11 @@ echo "R. Cowsay"
 echo "S. Nsnake"
 echo "T. Greed"
 echo "U. Ninvaders"
-echo -e "0. EXIT${DELETE}"
+echo "V. Helicopter Animation"
+echo "W. Weeman"
+echo "X. install a little termux material"
+echo "Y. Cek Instagram"
+echo -e "Z. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
 
@@ -142,7 +147,42 @@ sleep 1
 elif [[ $pil = "U" ]]; then
 read -p "Press [ENTER] to Start to the Game"
 nInvaders
-elif [[ $pil = "0" ]]; then
+sleep 1
+elif [[ $pil = "V" ]]; then
+apt upgrade && update
+pkg install git
+git clone https://github.com/SAY-KOJI/ANIMASI-TERMUX
+cd ANIMASI-TERMUX
+sh HELIKOPTER.sh
+sleep 1
+elif [[ $pil = "W" ]]; then
+apt update && upgrade
+pkg install git
+pkg install python2
+pkg install toilet
+pkg install python
+git clone https://github.com/evait-security/weeman
+cd weeman
+python2 weeman.py
+sleep 1
+elif [[ $pil = "X" ]]; then
+apt update && upgrade
+pkg install git
+pkg install php
+pkg install python
+pkg install python2
+pkg install python3
+pkg install toilet
+pip2 install requests
+pip2 install mechanize
+pkg install wget
+sleep 1
+elif [[ $pil = "Y" ]]; then
+pkg install -y git
+git clone https://github.com/th3unkn0n/osi.ig.git && cd osi.ig
+python3 -m pip install -r requirements.txt
+echo "for how to use this script, please exit then type cd then type cd osi.ig then type python3 main.py -u username"
+elif [[ $pil = "Z" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 sleep 1
 else
