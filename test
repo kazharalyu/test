@@ -35,69 +35,69 @@ echo -e $blue"____________________________________________________________"
 echo
 sleep 2
 
-echo -e ${GREEN}"1. Cracked Password"
-echo "2. Send Link Virus"
-echo "3. SpamCall"
-echo "4. About Hacker"
-echo "5. Cctv"
-echo "6. My Ip Addres"
-echo "7. Ip Locator"
-echo "8. Special Coments"
-echo "9. Moon-buggy" 
-echo "10. Bastet"
-echo "11. pacman"
-echo "12. Nudoku"
-echo "13. 2048"
-echo "14. Nethack"
+echo -e ${GREEN}"A. Cracked Password"
+echo "B. Send Link Virus"
+echo "C. SpamCall"
+echo "D. About Hacker"
+echo "E. Cctv"
+echo "F. My Ip Addres"
+echo "G. Ip Locator"
+echo "H. Special Coments"
+echo "I. Moon-buggy" 
+echo "J. Bastet"
+echo "K. pacman"
+echo "L. Nudoku"
+echo "M. 2048"
+echo "N. Nethack"
 echo -e "0. EXIT${DELETE}"
 
 read -p "Select The Numbers : " pil
 
-if [[ $pil = "1" ]] ;then
+if [[ $pil = "A" ]] ;then
 echo -e $yellow"qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
 sleep 1
-elif [[ $pil = "2" ]]; then
+elif [[ $pil = "B" ]]; then
 echo -e $purple"https://bit.ly/3ild93L"
 sleep 1
-elif [[ $pil = "3" ]]; then
+elif [[ $pil = "C" ]]; then
 read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
 link=https://id.jagreward.com/member/verify-mobile/$nomor
 curl -s $link
 sleep 1
-elif [[ $pil = "4" ]]; then
+elif [[ $pil = "D" ]]; then
 echo -e $REED"be you be a good hacker, be you be a wise person. Remember not to use this tool wrong!"
 sleep 1
-elif [[ $pil = "5" ]]; then
+elif [[ $pil = "E" ]]; then
 echo -e $REED"(Italy)http://2.37.161.141:80,(Indonesia)http://210.23.68.3:86,(France)http://193.252.54.33:88,(American)http://173.14.218.66:8082."
 sleep 1
-elif [[ $pil = "6" ]]; then
+elif [[ $pil = "F" ]]; then
 echo -e $purple"https://www.expressvpn.com/what-is-my-ip"
 sleep 1
-elif [[ $pil = "7" ]]; then
+elif [[ $pil = "G" ]]; then
 echo -e $lightpurple"(Your Gmail), (Your Password)."
 sleep 1
-elif [[ $pil = "8" ]]; then
+elif [[ $pil = "H" ]]; then
 echo " M-?"
 sleep 1
-elif [[ $pil = "9" ]]; then
+elif [[ $pil = "I" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 moon-buggy
 sleep 1
-elif [[ $pil = "10" ]];then
+elif [[ $pil = "J" ]];then
 read -p "Press [ENTER] to Start to the Game " lolcat
 bastet
 sleep 1
-elif [[ $pil = "11" ]]; then
+elif [[ $pil = "K" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 pacman
 sleep 1
-elif [[ $pil = "12" ]]; then
+elif [[ $pil = "L" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 nudoku
-elif [[ $pil = "13" ]]; then
+elif [[ $pil = "M" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 ./2048
-elif [[ $pil = "14" ]]; then
+elif [[ $pil = "N" ]]; then
 read -p "Press [ENTER] to Start to the Game " lolcat
 nethack
 elif [[ $pil = "0" ]]; then
