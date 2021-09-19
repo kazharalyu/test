@@ -160,8 +160,8 @@ sh HELIKOPTER.sh
 sleep 1
 elif [[ $pil = "W" ]]; then
 echo "Loading..."
-du
 sleep 4
+du
 sleep 1
 elif [[ $pil = "X" ]]; then
 apt update && upgrade
