@@ -63,7 +63,7 @@ echo "W. see udioctary"
 echo "X. install a little termux material"
 echo "Y. Cek Instagram"
 echo "Z. SETSMS"
-echo -e "1. EXIT
+echo -e "1. EXIT"
 echo -e "2. Date${DELETE}"
 
 read -p "Choose The Letter : " pil
