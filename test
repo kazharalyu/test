@@ -24,6 +24,7 @@ N="\033[0;m"
 clear
 
 sleep 2
+date
 echo
 echo -e $REED"____________________________________________________________"
 echo -e $blue"Youtube : Ahmad Guntur Al"
@@ -58,7 +59,7 @@ echo "S. Nsnake"
 echo "T. Greed"
 echo "U. Ninvaders"
 echo "V. Helicopter Animation"
-echo "W. Weeman"
+echo "W. see udioctary"
 echo "X. install a little termux material"
 echo "Y. Cek Instagram"
 echo "Z. SETSMS"
@@ -157,14 +158,8 @@ cd ANIMASI-TERMUX
 sh HELIKOPTER.sh
 sleep 1
 elif [[ $pil = "W" ]]; then
-apt update && upgrade
-pkg install git
-pkg install python2
-pkg install toilet
-pkg install python
-git clone https://github.com/evait-security/weeman
-cd weeman
-python2 weeman.py
+echo "Loading..."
+sleep 4
 sleep 1
 elif [[ $pil = "X" ]]; then
 apt update && upgrade
