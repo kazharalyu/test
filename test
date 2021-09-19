@@ -24,7 +24,7 @@ N="\033[0;m"
 clear
 
 sleep 2
-date
+
 echo
 echo -e $REED"____________________________________________________________"
 echo -e $blue"Youtube : Ahmad Guntur Al"
@@ -63,7 +63,8 @@ echo "W. see udioctary"
 echo "X. install a little termux material"
 echo "Y. Cek Instagram"
 echo "Z. SETSMS"
-echo -e "1. EXIT${DELETE}"
+echo -e "1. EXIT
+echo -e "2. Date${DELETE}"
 
 read -p "Choose The Letter : " pil
 
@@ -159,6 +160,7 @@ sh HELIKOPTER.sh
 sleep 1
 elif [[ $pil = "W" ]]; then
 echo "Loading..."
+du
 sleep 4
 sleep 1
 elif [[ $pil = "X" ]]; then
@@ -187,6 +189,8 @@ dir
 bash SETSMS.sh
 elif [[ $pil = "1" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
+elif [[ $pil = "2" ]]; then
+date
 sleep 1
 else
 sleep 1
