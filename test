@@ -60,8 +60,9 @@ echo "W. see udioctary"
 echo "X. install a little termux material"
 echo "Y. Cek Instagram"
 echo "Z. SETSMS"
-echo -e "1. EXIT"
-echo -e "2. Date${DELETE}"
+echo "1. EXIT"
+echo "2. Date "
+echo "3. Kalkulator${DELETE}"
 
 read -p "Choose The Letter : " pil
 
@@ -188,6 +189,14 @@ elif [[ $pil = "1" ]]; then
 echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 elif [[ $pil = "2" ]]; then
 date
+sleep 1
+elif [[ $pil = "3" ]]; then
+apt update && upgrade
+pkg install git
+git clone https://github.com/kazharalyu/kotz
+cd kotz
+dir
+sh kotz.sh
 sleep 1
 else
 sleep 1
