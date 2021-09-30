@@ -62,7 +62,7 @@ echo "Y. Cek Instagram"
 echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
-echo "3. Kalkulator${DELETE}"
+echo -e "3. Kalkulator${DELETE}"
 
 read -p "Choose The Letter : " pil
 
