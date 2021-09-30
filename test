@@ -1,4 +1,4 @@
-# firts script
+#bin/sh
 
 
 #code warna
@@ -17,10 +17,7 @@ lightreed="\e[1;31m"
 lightcyan="\e[1;36m"
 N="\033[0;m"
 
-#Tampilan Menu
 
-
-# Clear Dekstop
 clear
 
 sleep 2
