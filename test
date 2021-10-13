@@ -1,4 +1,4 @@
-#bin/bash
+#script pertamax
 
 #code warna
 REED="\033[31;1m"
@@ -62,7 +62,7 @@ echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
 echo "3 Kalkulator"
-echo -e "4. Information Website${DELETE}"
+echo "4. Information Website${DELETE}"
 
 read -p "Choose The Letter : " pil
 
