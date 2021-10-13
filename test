@@ -1,6 +1,5 @@
 #bin/sh
 
-
 #code warna
 REED="\033[31;1m"
 GREEN="\033[32;1m"
@@ -62,7 +61,8 @@ echo "Y. Cek Instagram"
 echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
-echo -e "3. Kalkulator${DELETE}"
+echo "3 Kalkulator"
+echo "4. Information Website${DELETE}"
 
 read -p "Choose The Letter : " pil
 
@@ -198,6 +198,13 @@ cd kotz
 dir
 sh kotz.sh
 sleep 1
+elif [[ $pil = "4" ]]; then
+echo "[+]Masukan Nama Website[-]
+read nam
+echo "Checking" $nam
+sleep 0.8
+ping $nam
+exit
 else
 sleep 1
 echo -e $lightgreen"Ops, Please Try Agains!!"
