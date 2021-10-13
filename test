@@ -1,4 +1,4 @@
-#bin/sh
+#bin/bash
 
 #code warna
 REED="\033[31;1m"
