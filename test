@@ -62,7 +62,7 @@ echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
 echo "3 Kalkulator"
-echo -e "4. Information Website${DELETE}"
+echo -e ${DELETE}"4. Information Website"
 
 read -p "Choose The Letter : " pil
 
