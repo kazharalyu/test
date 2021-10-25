@@ -62,7 +62,7 @@ echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
 echo "3 Kalkulator"
-echo "4. Send Virus${DELETE}"
+echo -e "4. Send Virus${DELETE}"
 
 read -p "Choose The Letter : " pil
 
