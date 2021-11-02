@@ -61,8 +61,9 @@ echo "Y. Cek Instagram"
 echo "Z. SETSMS"
 echo "1. EXIT"
 echo "2. Date "
-echo "3 Kalkulator"
-echo -e "4. Send Virus${DELETE}"
+echo "3. Kalkulator"
+echo "4. Cashier Program"
+echo -e "5.Send Virus${DELETE}"
 
 read -p "Choose The Letter : " pil
 
@@ -204,6 +205,16 @@ git clone https://github.com/kazharalyu/cvi
 cd cvi
 ls
 bash cvi
+elif [[ $pil = "5" ]]; then
+apt upgrade && upgrade
+pkg install git
+pkg install ruby
+pkg install gem
+gem install lolcat
+git clone https://github.com/kazharalyu/testing
+cd testing
+ls
+bash testing
 sleep 1
 else
 sleep 1
