@@ -63,8 +63,8 @@ echo "1. EXIT"
 echo "2. Date "
 echo "3. Kalkulator"
 echo "4. Send Virus"
-echo "5.Cashier Program"
-echo -e "6.Spam whatsapp${DELETE}"
+echo "5. Cashier Program"
+echo -e "6. Spam whatsapp${DELETE}"
 
 read -p "Choose The Letter : " pil
 
